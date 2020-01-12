@@ -69,7 +69,7 @@
         openNew: true
       };
 
-      // マップの位置をgoogle_placeに渡して、近所検索をかける
+      // リクエストをgoogle_placeに渡して、近所検索をかける
       var service = new google.maps.places.PlacesService(map);
       service.nearbySearch(request, callback);
 
@@ -83,6 +83,7 @@
         }
       }
 
+      //リクエストの結果からプッシュピンとinfowindowを作成
       function createMarker(place) {
         var marker = new google.maps.Marker({
           map: map,
