@@ -2,6 +2,9 @@
 This is simple app which use google Places API and Maps JavaScript API.
 You can search primary school within 1km in center of the your current spot.
 
+# ScreenShot
+![スクリーンショット 2020-01-13 04 41 54](https://user-images.githubusercontent.com/42442379/72224572-3ad0a780-35bf-11ea-9532-9fdfb620097d.png)
+
 # Dependency
 ES6 javascript,
 HTML5/CSS3,
